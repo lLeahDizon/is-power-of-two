@@ -6,6 +6,6 @@ public class IsPowerOfTwo {
         // 提示：
         // 1. 想想如果一个整数是2的幂，它的二进制表示有什么特点
         // 2. 利用与运算
-        return ?;
+        return num != 0 && (num & (num - 1)) == 0;
     }
 }
